@@ -21,7 +21,7 @@ export class RouterService {
     switch(route) {
       default:
       case Route.DEFAULT: {
-        component = container.get(Symbols.AppComponent) as Component;
+        component = container.get<Component>(Symbols.AppComponent);
         break;
       }
     }

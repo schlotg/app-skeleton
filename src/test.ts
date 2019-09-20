@@ -1,2 +1,0 @@
-import "inversify";
-import 'rxjs';
